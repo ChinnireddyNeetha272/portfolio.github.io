@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        services{
+            display:flex;
+            flex-direction:coloumn;
+            padding:10px;
+        }
+        .row{
+            display:flex;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 250px;
+            border:1px solid black;
+            margin: 20px;
+            align-items: center;
+            text-align: justify;
+            padding: 10px;
+            border-radius: 15px;
+            background: linear-gradient(to top,rgb(171, 25, 162),rgb(22, 154, 195));
+            background-size:100% 200% ;
+            transition:all .8s;
+            margin-top:100px;
+            margin-left: 50px;
+        }
+        .box:hover{
+            background-position: left;
+            color: white;
+            border: none;
+            box-shadow: 0 0 20px rgb(red, green, blue);
+        }
+        .headings{
+            text-align: center;
+        }
+        body{
+            background:linear-gradient(45deg,pink,green);
+        }
+    </style>
+</head>
+<body>
+    <section id="services">
+        <h1 class="headings">Education</h1>
+        <div id="Education" class="row">
+            <div class="box">
+                <h1 class="headings">Schooling</h1>
+                <p>Completed My 10th Standard in 2017 in KeshavaReddy School With 9.2 Cgpa</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Intermediate</h1>
+                <p>Completed my +12 in 2018 in Srichaitanya Junior College with 8.8 Cgpa</p>
+            </div>
+            <div class="box">
+                <h1 class="headings">Graducation</h1>
+                <p>Completed my graducation in  2023 in Ksrm College of Engineering With 7.8 Cgpa  in the Stream of Electronics and Communication Engineering</p>
+            </div>
+
+
+        </div>
+    </section>
+    <center>
+        <a href="Projects.html">Next</a>
+        </center>
+        
+</body>
+</html>
